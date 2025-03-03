@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.outer-container{
+   /* background-color: rebeccapurple;  */
+}
+.outer-container{
+    position: relative;
+}
+.container{
+    box-shadow: 2px 2px 400px orangered;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    height: 150px;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 60px;
+    opacity: 0.6;
+    backdrop-filter: blur(10px);
+    position: sticky;
+}
+.name-portfolio, .name-portfolio a{
+    color: orangered;
+    text-decoration: none;
+    /* font-weight: strong; */
+}
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-right: 40px;
+}
+.nav-list li{
+    padding-right: 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: whitesmoke;    text-shadow: 
+    10px 10px 10px black,
+    0 0 20px black,
+    0 0 30px black,
+    0 0 40px black,
+    0 0 50px black;
+}
+.hero-image2{
+    height: 1000px;
+    background-image: url(../images/IMG_1236.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment:fixed; */
+    background-size: cover;
+}
+.text-area{
+    margin: 275px 0 0 60px;
+    color: whitesmoke;
+    text-shadow: 
+    10px 10px 10px black,
+    0 0 20px black,
+    0 0 30px black,
+    0 0 40px black;
+    /* 0 0 50px black; */
+    width: 55%;
+}
+.name{
+    font-size: 60px;
+}
+.role{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.stay-in-touch{
+    font-size: 30px;
+    margin-top: 60px;
+    display:flex;
+}
+.stay-in-touch a{
+    margin-left: 10px;
+    color:orangered;
+}
+
+/* <--------------------secondary-hero-------------------------> */
+
+.skill-anouncement{
+    height: 150px;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 150px;
+    color: black;
+    text-shadow: 2px 2px 10px wheat;
+}
+/* <--------------------------project-------------------------------> */
+.project-container{
+    display: flex;
+    margin-left: 8px;
+
+}
+.project-img{
+    height: 90vh;
+    width: 70%; 
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    background-size: contain;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    margin-bottom: 12px;
+}
+.project-img1{
+    background-image: url(../images/nothing.png);
+
+}
+.project-img img{
+    height: 100%;
+    /* width: 100%; */
+}
+.project-description{
+    height: 90vh;
+    width: 30%;
+    padding-left: 20px;
+}
+.project-description h2{
+    font-size: 40px;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px black;
+}
+.project-description p{
+    font-size: 16px;
+}
+.project-button{
+    text-align: center;
+    margin-top:60%;
+}
+.project-description button{
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    color: orange;
+    border-radius: 38px;
+    width: 200px;
+    height: 60px;
+    border-color: orangered;
+    box-shadow: 2px 2px 6px rgb(255, 140, 0);
+
+}
+
+.project-img2{
+    background-image: url(../images/nepathya.png);
+}
+.project-img3{
+    background-color: black;
+  
+}
+
+
+/* <------------------------------best-project--------------------------------> */
+
+.best-project-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-left: 2.5vw; */
+    margin-top: 40px;
+    /* gap: 1px; */
+    width: 98vw;
+    margin:auto ;
+    box-shadow: 4px 4px 10px black;
+}
+.best-project-box{
+    height: 110vh;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+}
+.best-project1{
+    background-color: blue;
+    background-image: url(../images/nothing.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-right: none;
+    border-bottom: none;
+}
+.best-project2{
+    background-color:red;
+    background-image: url(../images/nothing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom: none;
+    border-left: none;
+    
+}
+.best-project3{
+    background-color: yellow;
+    background-image: url(../images/nepathya.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: none;
+    border-right: none;
+}
+.best-project4{
+    background-color: green;
+    background-image: url(../images/nepathya.png);
+    border-top: none;
+    border-left: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* <-------------------------------skill-----------------------------> */
+
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    row-gap: 70px;
+    column-gap: 20px;
+}
+
+.skill-box{
+    height: 200px;
+    box-shadow: 2px 2px 10px black;
+    padding: 10px;
+    /* background-color: red; */
+}
+.skill-icon{
+    height: 100%;
+}
+.icon-text{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.html-icon{
+    background-color: red;
+    background-image: url(../images/html.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+.css-icon{
+    background-color: yellow;
+    background-image: url(../images/css.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+.js-icon{
+
+    background-color: green;
+    background-image: url(../images/js.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
+.c-icon{
+    background-color: black;
+    background-image: url(../images/cp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}
