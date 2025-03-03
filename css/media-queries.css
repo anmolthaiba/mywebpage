@@ -1,0 +1,88 @@
+@media (max-width:500px){
+    * {
+        padding: 0px;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        /* outline: 2px solid red; */
+    }  
+    .nav{
+            /* width: 100px; */
+            font-size: 22px;
+            padding: 0;
+            /* margin-left: 20px; */
+            gap: 10px;
+            width: 100vw;
+        }
+    .nav-list{
+        gap:4px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-list li{
+        /* padding: 10px; */
+        padding-inline: 6px;
+        
+    }
+    .text-area{
+        margin-left:6px ;
+    }
+
+
+        .nav ul{
+            font-size: 18px;
+        }
+        .name{
+            font-size: 40px;
+        }
+        .role{
+            font-size:30px;
+        }
+        .stay-in-touch{
+            font-size: 20px;
+        }
+        .project-container{
+            display: block;
+            margin: 0;
+        }
+        .skill-anouncement{
+            font-size: 30px;
+            width: 100vw;
+        }
+        .project-img{
+            height: 40vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            overflow-y: scroll;
+        }
+        .project-description{
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+        .project-button{
+            margin-top: 30%;
+        }
+        .best-project-section{
+            margin: 0;
+            display: none;
+        }
+        .peak-at-best{
+            display: none;
+        }
+        .skill-container{
+           
+            grid-template-columns: repeat(1,1fr);
+            
+        }
+        .skill-icon{
+            background-size: contain;
+            background-color: white;
+        }
+    .name-portfolio{
+        font-size: 28px;
+    }
+}
